@@ -38,3 +38,21 @@ export const WrapperSvg = styled.div`
     height: 100%;
   }
 `
+
+export const Btn = styled.button`
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: blue;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: red;
+  }
+`
